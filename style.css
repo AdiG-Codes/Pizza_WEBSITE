@@ -1,0 +1,87 @@
+header{
+    width:100%;
+    height:100vh;
+    font-size: 50px 50px;
+   font-family:sans-serif;
+    color:brown;
+    background-image: url(file:///F:/pizza.jpg) ;
+    background-size:50% 85%;
+    background-repeat:no-repeat;
+    background-position: bottom right;
+}
+nav{
+    width:90%;
+    height:70px;
+    padding: 0px 70px;
+    color:green;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+}
+.logo{
+font-weight: bold;
+font-size: 50px;
+
+}
+.logo span{
+color:brown;
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding:10px 20px;
+
+}
+
+.menu a:last-child{
+    background:brown;
+    color:white;
+    border-radius: 8px;
+}
+
+.h-text{
+    color:#262626;
+    position: absolute;
+    top:30%;
+    left:5%;
+    padding:15px;
+
+
+}
+.h-text p{
+    color:#262626;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.h-text h1{
+    font-size:4em;
+    line-height:1.5em;
+}
+
+.h-text h1 span{
+    color:brown;
+}
+
+.h-text h2{
+    font-size:4em;
+    margin-bottom: 0.5em;
+}
+
+#order{
+    text-decoration: none;
+    color:black;
+    background-color: brown;
+    border-radius: 5px;
+    padding:10px;
+}
+
+#dis{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius:6px;
+    padding:10px;
+}
